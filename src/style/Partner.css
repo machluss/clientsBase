@@ -1,0 +1,164 @@
+.partner {
+    position: relative;
+    margin-top: 20px;
+}
+
+.partner .partnerTitle {
+    width:  calc(100% - 250px);
+}
+
+.partner .info {
+    position: absolute;
+    right: 5px;
+    top: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+.partner .address>p:first-of-type {
+    margin-bottom: 5px;
+    
+    font-weight: bold;
+}
+
+.partner .contact>p:first-of-type {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    font-weight: bold;
+}
+
+.current {
+    width: calc(100% - 250px);
+    height: 40vh;
+
+    margin: 20px 20px 0 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+    background-color: silver;
+
+    overflow-y: auto
+}
+
+.current .currents>p:first-of-type {
+    margin: 10px 0;
+
+    font-weight: bold;
+}
+
+.current  .currentTask {
+    margin: 0 5px 5px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    background-color: #EEE;
+}
+
+.current  .currentTask .number {
+    width: 200px;
+    margin: 0 auto 10px;
+    border-bottom: 1px solid #333;
+}
+
+.current  .currentTask span {
+    font-weight: bold;
+}
+
+.current .noCurrent {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.current::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0px 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    background-color: #F5F5F5;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.current::-webkit-scrollbar
+{
+	width: 12px;
+    margin-top: 80px;
+    padding-top: 1000px;
+}
+
+.current::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #D62929;
+}
+
+/* ---------------------- */
+
+.history {
+    width: 100%;
+    height: 40vh;
+    
+
+    margin: 20px 20px 0 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+    background-color: silver;
+
+    overflow-y: auto
+}
+
+.history .currents>p:first-of-type {
+    margin: 10px 0;
+
+    font-weight: bold;
+}
+
+.history  .currentTask {
+    margin: 0 5px 5px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    background-color: #EEE;
+}
+
+.history  .currentTask .number {
+    width: 200px;
+    margin: 0 auto 10px;
+    border-bottom: 1px solid #333;
+}
+
+.history  .currentTask span {
+    font-weight: bold;
+}
+
+.history .noCurrent {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.history::-webkit-scrollbar-track
+{
+    margin-top: 80px;
+    margin-bottom: 10px;
+	box-shadow: inset 0 0px 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.history::-webkit-scrollbar
+{
+	width: 12px;
+    margin-top: 80px;
+    padding-top: 1000px;
+}
+
+.history::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #D62929;
+}

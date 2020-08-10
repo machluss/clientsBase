@@ -1,0 +1,38 @@
+.addNewPartner {
+    position: fixed;
+    left: 20px;
+    bottom: 2px;
+
+    width: 180px;
+    height: 60px;
+
+    padding-top: 10px;
+    background-color: #EEE;
+
+    text-align: left;
+
+}
+
+.addNewPartner .newPartner {
+    width: 40px;
+    height: 40px;
+
+    border: 3px solid #333;
+    border-radius: 50%;
+
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+.addNewPartner .newPartner:hover {
+    transform: scale(1.2);
+}
+
+.addNewPartner:focus, .addNewPartner .newPartner:focus {
+    outline: none;
+}

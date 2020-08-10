@@ -1,0 +1,39 @@
+*:focus {
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  min-width: 770px;
+
+  text-align: center;
+}
+
+.wrap>section {
+  height: 100vh;
+}
+
+.panel, .display {
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 20px;
+
+  background-color: #eee;
+}
+
+.panel {
+  width: 250px;
+}
+
+.display {
+  flex-grow: 1;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}

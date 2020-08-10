@@ -1,0 +1,61 @@
+.panel {
+    padding-bottom: 60px;
+    overflow-y: scroll;
+}
+
+
+.panel::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0px 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    background-color: #F5F5F5;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.panel::-webkit-scrollbar
+{
+	width: 12px;
+    margin-top: 80px;
+    padding-top: 1000px;
+}
+
+.panel::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #D62929;
+}
+
+
+
+
+.panel .partnersList {
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+    /* overflow-y: hidden; */
+}
+
+.panel .searchedList {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.partnerButton {
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    border: 2px solid #333;
+    border-radius: 7px;
+
+    background-color: #ddd;
+
+    transition: .1s;
+    cursor: pointer;
+}
+
+.partnerButton:hover {
+    background-color: #001142;
+
+    color: #fff;
+}

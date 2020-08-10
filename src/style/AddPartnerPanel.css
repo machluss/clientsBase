@@ -1,0 +1,159 @@
+.addPanel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    min-width: 770px;
+    max-width: 900px;
+    height: 90vh;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+
+}
+
+.addPanel>form {
+    text-align: left;
+}
+
+.addPanel .addPanelTitle {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+color: #fff;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.addPanel>form .company {
+    width: 50%;
+
+    margin: 0 auto 15px;
+}
+
+.addPanel>form .company>div {
+    display: flex;
+
+    margin-bottom: 5px;
+}
+
+.addPanel>form .company>div>* {
+    flex-basis: 50%;
+}
+
+.addPanel>form .address {
+    align-items: center;
+    width: 90%;
+
+    margin: 0 auto 15px;
+}
+
+.addPanel>form .address>div {
+    display: flex;
+
+    margin-bottom: 5px;
+}
+
+.addPanel>form .address>div:nth-last-of-type(1), .addPanel>form .address>div:nth-last-of-type(2) {
+    width: 50%;
+    margin-left: 27%;
+}
+
+.addPanel>form .address>div>* {
+    flex-basis: 50%;
+}
+
+.addPanel>form .contact {
+    width: 50%;
+
+    margin: 0 auto 15px;
+}
+
+.addPanel>form .contact>div {
+    display: flex;
+
+    margin-bottom: 5px;
+}
+
+.addPanel>form .contact>div>* {
+    flex-basis: 50%;
+}
+
+.addPanel>form label {
+    padding-right: 10px;
+    color: #fff;
+
+    text-align: right;
+}
+
+.addPanel>form p {
+    padding-bottom: 20px;
+
+    color: #fff;
+
+    text-align: center;
+}
+
+.addPanel>form input {
+    padding: 5px;
+}
+
+.addPanel button.add {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+
+    padding: 10px 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+
+    background-color: #ddd;
+
+    cursor: pointer;
+}
+
+.addPanel .closePanel {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.addPanel .closePanel button {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    color: #fff;
+    font-size: 16px;
+
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+.addPanel .closePanel button i {
+    font-size: 40px;
+}
+
+.addPanel .closePanel button:hover {
+    transform: scale(1.2);
+}
+
+.addPanel .error {
+    color: #f00;
+}
+
