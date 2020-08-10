@@ -167,7 +167,7 @@ class App extends React.Component {
       actualChosen: {}
     })
 
-    alert(`Edytowano kontrahenta: ${this.state.actualChosen.name}`)
+    alert(`Usunięto kontrahenta: ${this.state.actualChosen.name}`)
   }
 
   dBDelPartner = id => {
