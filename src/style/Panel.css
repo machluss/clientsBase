@@ -1,6 +1,6 @@
 .panel {
     padding-bottom: 60px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 
@@ -16,8 +16,6 @@
 .panel::-webkit-scrollbar
 {
 	width: 12px;
-    margin-top: 80px;
-    padding-top: 1000px;
 }
 
 .panel::-webkit-scrollbar-thumb
@@ -26,9 +24,6 @@
 	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #D62929;
 }
-
-
-
 
 .panel .partnersList {
     margin-top: 10px;
